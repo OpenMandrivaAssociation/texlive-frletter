@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/frletter
+# catalog-date 2008-08-19 21:00:04 +0200
+# catalog-license pd
+# catalog-version undef
 Name:		texlive-frletter
 Version:	20080819
 Release:	1
@@ -38,6 +44,7 @@ modification of the standard LaTeX letter class.
 %files
 %{_texmfdistdir}/tex/latex/frletter/frletter.cls
 %doc %{_texmfdistdir}/doc/latex/frletter/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -48,3 +55,5 @@ modification of the standard LaTeX letter class.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
