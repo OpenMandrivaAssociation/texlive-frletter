@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-frletter
 Version:	20080819
-Release:	1
+Release:	2
 Summary:	Typeset letters in the French style
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/frletter
