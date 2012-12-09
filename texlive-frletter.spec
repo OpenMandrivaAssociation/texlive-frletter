@@ -46,3 +46,17 @@ modification of the standard LaTeX letter class.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20080819-2
++ Revision: 752098
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20080819-1
++ Revision: 718509
+- texlive-frletter
+- texlive-frletter
+- texlive-frletter
+- texlive-frletter
+
