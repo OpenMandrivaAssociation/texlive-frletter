@@ -4,13 +4,15 @@
 # catalog-date 2008-08-19 21:00:04 +0200
 # catalog-license pd
 # catalog-version undef
+
+
+Summary:	Typeset letters in the French style
 Name:		texlive-frletter
 Version:	20080819
-Release:	2
-Summary:	Typeset letters in the French style
-Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/frletter
+Release:	3
 License:	PD
+Group:		Publishing
+Url:		http://www.ctan.org/tex-archive/macros/latex/contrib/frletter
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/frletter.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/frletter.doc.tar.xz
 BuildArch:	noarch
@@ -46,17 +48,4 @@ modification of the standard LaTeX letter class.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20080819-2
-+ Revision: 752098
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20080819-1
-+ Revision: 718509
-- texlive-frletter
-- texlive-frletter
-- texlive-frletter
-- texlive-frletter
 
