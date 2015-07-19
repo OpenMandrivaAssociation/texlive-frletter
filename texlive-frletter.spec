@@ -9,7 +9,7 @@
 Summary:	Typeset letters in the French style
 Name:		texlive-frletter
 Version:	20080819
-Release:	10
+Release:	11
 License:	PD
 Group:		Publishing
 Url:		http://www.ctan.org/tex-archive/macros/latex/contrib/frletter
