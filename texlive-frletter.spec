@@ -8,8 +8,8 @@
 
 Summary:	Typeset letters in the French style
 Name:		texlive-frletter
-Version:	20080819
-Release:	11
+Version:	20170414
+Release:	1
 License:	PD
 Group:		Publishing
 Url:		http://www.ctan.org/tex-archive/macros/latex/contrib/frletter
