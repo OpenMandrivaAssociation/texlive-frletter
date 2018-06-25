@@ -8,7 +8,7 @@
 
 Summary:	Typeset letters in the French style
 Name:		texlive-frletter
-Version:	20170414
+Version:	20180303
 Release:	1
 License:	PD
 Group:		Publishing
