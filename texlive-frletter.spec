@@ -4,7 +4,7 @@ Version:	15878
 Release:	2
 License:	PD
 Group:		Publishing
-Url:		http://www.ctan.org/tex-archive/macros/latex/contrib/frletter
+Url:		https://www.ctan.org/tex-archive/macros/latex/contrib/frletter
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/frletter.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/frletter.doc.r%{version}.tar.xz
 BuildArch:	noarch
